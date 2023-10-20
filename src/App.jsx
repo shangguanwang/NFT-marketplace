@@ -1,5 +1,5 @@
 import './App.css';
-import {Header, Hero, Category, GetStarted, JoinContact, Footer} from './components';
+import {Header, Hero, Category, GetStarted, JoinContact, Footer} from './views';
 
 function App() {
 
