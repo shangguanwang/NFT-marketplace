@@ -17,10 +17,10 @@ const Hero = () => {
           <NumberCard number="370" text="Artists" />
         </div>
       </article>
-      <article className='w-96 rounded-2xl text-left bg-gray-300'>
+      <article className='w-96 rounded-2xl text-left bg-gray-500'>
           <img className='w-96 rounded-2xl' src={AutumnMxse} alt="AutumnMxse is an NFT artwork created by artist GxngYxng" />
-            <h3 className='font-bold text-xl ml-3 mt-3'>Autumn Mxse</h3>
-            <div className='flex gap-2 ml-3 mb-3'>
+            <h3 className='font-bold text-xl ml-3 mt-3 text-white'>Autumn Mxse</h3>
+            <div className='flex gap-2 ml-3 mb-3 text-white'>
               <img className='w-5 rounded-full' src={GxngYxng} alt="Artist GxngYxng's headshot"/>
               <span>GxngYxng</span>
             </div>
