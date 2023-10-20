@@ -5,7 +5,7 @@ import {RxAvatar} from 'react-icons/rx';
 
 const Header = () => {
   return (
-    <nav className='flex fixed top-0 z-10 w-[90%] bg-gray-500 px-6 justify-between'>
+    <nav className='flex bg-neutral-800 px-6 justify-between'>
       <div className='flex items-center'>
         <BiStoreAlt size={30} className='text-white'/>
         <h3 className='font-semibold text-2xl m-4 text-white'>NFT Marketplace</h3>
