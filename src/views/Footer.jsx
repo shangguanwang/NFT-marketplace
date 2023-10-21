@@ -18,7 +18,7 @@ const Footer = () => {
       <article className='flex flex-col'>
       <h3 className='font-semibold text-2xl m-4 text-white'>Explore</h3>
             <a className='text-lg'>Marketplace</a>
-            <a className='text-lg'>Learn</a>
+            <a className='text-lg' href="#learn">Learn</a>
             <a className='text-lg'>Blog</a>
       </article>
       <article>

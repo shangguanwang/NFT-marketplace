@@ -8,7 +8,7 @@ const Header = () => {
       <Logo />
       <div className='flex items-center gap-x-10'>
             <a className='text-lg text-white'>Marketplace</a>
-            <a className='text-lg text-white'>Learn</a>
+            <a className='text-lg text-white' href="#learn">Learn</a>
             <a className='text-lg text-white'>Blog</a>
         <IconButton icon={<RxAvatar size={30} />} text="Sign Up" />
       </div>
