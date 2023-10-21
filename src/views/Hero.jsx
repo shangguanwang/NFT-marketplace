@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className='lg:flex lg:justify-between gap-12 p-10 lg:p-36 lg:px-20 bg-neutral-800 w-full'>
       <article className='lg:w-1/2 text-white'>
-        <h1 className='font-bold my-7'>Discover Digital Art & Collect NFTs</h1>
+        <h1 className='font-bold my-7 text-2xl lg:text-4xl leading-tight'>Discover Digital Art & Collect NFTs</h1>
         <p className='capitalize text-xl'>Collect, buy and sell art from more than 370k NFT artists.</p>
         <IconButton icon={<BsFillRocketTakeoffFill />} text="Get Started" />
         <div className='lg:flex justify-between mt-10'>

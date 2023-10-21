@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='grid grid-cols-1 lg:grid-cols-3 justify-center text-white bg-neutral-600 p-10'>
       <article>
-        <Logo />
+        <div className='hidden lg:block'><Logo /></div>
         <p className='mb-4 ml-4 lg:text-left'>Join our community</p>
         <div className='flex gap-x-4 ml-4 justify-center lg:justify-start'>
           <a><FaDiscord size={25}/></a>
@@ -16,13 +16,13 @@ const Footer = () => {
         </div>
       </article>
       <article className='flex flex-col'>
-      <h3 className='font-semibold text-2xl m-4 text-white'>Explore</h3>
+      <h3 className='font-semibold text-xl lg:text-2xl m-4 text-white'>Explore</h3>
             <a className='text-lg'>Marketplace</a>
             <a className='text-lg' href="#learn">Learn</a>
             <a className='text-lg'>Blog</a>
       </article>
       <article>
-        <h3 className='font-semibold text-2xl m-4 text-white'>Get In Touch</h3>
+        <h3 className='font-semibold text-xl lg:text-2xl m-4 text-white'>Get In Touch</h3>
         <div className='flex justify-center gap-x-4'>
           <a
                   href="https://www.linkedin.com/in/shangguan-wang/"
