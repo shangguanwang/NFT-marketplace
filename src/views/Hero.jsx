@@ -6,12 +6,12 @@ import GxngYxng from '../assets/gxngyxng.jpeg';
 
 const Hero = () => {
   return (
-    <section className='lg:flex lg:justify-between gap-12 p-36 px-20 bg-neutral-800 w-full'>
+    <section className='lg:flex lg:justify-between gap-12 p-10 lg:p-36 lg:px-20 bg-neutral-800 w-full'>
       <article className='lg:w-1/2 text-white'>
         <h1 className='font-bold my-7'>Discover Digital Art & Collect NFTs</h1>
         <p className='capitalize text-xl'>Collect, buy and sell art from more than 370k NFT artists.</p>
         <IconButton icon={<BsFillRocketTakeoffFill />} text="Get Started" />
-        <div className='flex justify-between mt-10'>
+        <div className='lg:flex justify-between mt-10'>
           <NumberCard number="240" text="Total Sale" />
           <NumberCard number="100" text="Auctions" />
           <NumberCard number="370" text="Artists" />

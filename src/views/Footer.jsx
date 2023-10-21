@@ -4,11 +4,11 @@ import {FaDiscord, FaYoutube, FaTwitter, FaInstagram, FaLinkedin, FaGithub} from
 
 const Footer = () => {
   return (
-    <footer className='flex justify-between text-white bg-neutral-600 p-10'>
+    <footer className='grid grid-cols-1 lg:grid-cols-3 justify-center text-white bg-neutral-600 p-10'>
       <article>
         <Logo />
-        <p className='text-left mb-4 ml-4'>Join our community</p>
-        <div className='flex gap-x-4 ml-4'>
+        <p className='mb-4 ml-4 lg:text-left'>Join our community</p>
+        <div className='flex gap-x-4 ml-4 justify-center lg:justify-start'>
           <a><FaDiscord size={25}/></a>
           <a><FaYoutube size={25}/></a>
           <a><FaTwitter size={25}/></a>
