@@ -45,7 +45,7 @@ npm install
 ```
 npm run dev
 ```
-You should see the app running at `http://localhost:5173/`
+You should see the app running at `http://127.0.0.1:5173/`
 
 ## Author 👩🏻
 
