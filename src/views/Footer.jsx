@@ -9,10 +9,10 @@ const Footer = () => {
         <div className='hidden lg:block'><Logo /></div>
         <p className='mb-4 ml-4 lg:text-left'>Join our community</p>
         <div className='flex gap-x-4 ml-4 justify-center lg:justify-start'>
-          <a><FaDiscord size={25}/></a>
-          <a><FaYoutube size={25}/></a>
-          <a><FaTwitter size={25}/></a>
-          <a><FaInstagram size={25}/></a>
+          <a aria-label='Discord Link'><FaDiscord size={25}/></a>
+          <a aria-label='Youtube link'><FaYoutube size={25}/></a>
+          <a aria-label='Twitter Link'><FaTwitter size={25}/></a>
+          <a aria-label='Instagram Link'><FaInstagram size={25}/></a>
         </div>
       </article>
       <article className='flex flex-col'>
@@ -28,6 +28,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/shangguan-wang/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="checkout my Linkedin profile"
           >
             <FaLinkedin size={25}/>
           </a>
@@ -35,6 +36,7 @@ const Footer = () => {
                   href="https://github.com/shangguanwang"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="checkout my Github"
           >
             <FaGithub size={25}/>
           </a>
