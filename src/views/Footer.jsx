@@ -28,6 +28,7 @@ const Footer = () => {
                   href="https://www.linkedin.com/in/shangguan-wang/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="checkout my Linkedin profile"
           >
             <FaLinkedin size={25}/>
           </a>
@@ -35,6 +36,7 @@ const Footer = () => {
                   href="https://github.com/shangguanwang"
                   target="_blank"
                   rel="noopener noreferrer"
+                  aria-label="checkout my Github"
           >
             <FaGithub size={25}/>
           </a>
