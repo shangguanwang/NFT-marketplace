@@ -15,7 +15,13 @@ src="videoDemo.gif">
 
 ## Built with 🛠️
 - React.js
+- RainbowKit for wallet integration
 - Styling: Tailwind CSS
+
+## Reflection
+🤔 Why I built it: I'm an NFT enthusiast since 2021. According to Etherscan I have made 750+ transactions so far and have bought countless NFTs on all the major NFT trading platforms. 
+💆‍♀️ Challenges I Faced: This is my first time integrating crypto wallet as a authentication method to React app. After some research, I decided to go with the RainbowKit library due to their well-written documentation and built-in responsiveness. There is a learning curve to configure the code but once it's setup, it's so much smoother than the traditional email + password login method.
+👏 What went well: I was able to follow best practices of creating separate branches for every feature, writing pull requests, and making meaningful commits regularly.
 
 ## How to Use 🕹️
 If you want to run this project on your local computer, follow these steps:
