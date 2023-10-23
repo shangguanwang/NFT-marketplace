@@ -17,8 +17,8 @@ const Hero = () => {
           <NumberCard number="370" text="Artists" />
         </div>
       </article>
-      <article className='mx-auto w-96 rounded-2xl text-left bg-neutral-600'>
-          <img className='w-96 rounded-2xl' src={AutumnMxse} alt="AutumnMxse is an NFT artwork created by artist GxngYxng" loading="lazy" />
+      <article className='mx-auto w-96 rounded-2xl text-left bg-neutral-600 overflow-hidden'>
+          <img className='w-96 rounded-2xl hover:cursor-pointer transition-transform duration-300 hover:scale-105' src={AutumnMxse} alt="AutumnMxse is an NFT artwork created by artist GxngYxng" loading="lazy" />
             <h3 className='font-bold text-xl ml-3 mt-3 text-white'>Autumn Mxse</h3>
             <div className='flex gap-2 ml-3 mb-3 pb-3 text-white'>
               <img className='w-5 rounded-full' src={GxngYxng} alt="Artist GxngYxng's headshot" loading="lazy"/>
