@@ -1,6 +1,6 @@
 import React from 'react';
-import { IconButton, Logo } from '../components';
-import {RxAvatar} from 'react-icons/rx';
+import { Logo } from '../components';
+import { ConnectButton } from '@rainbow-me/rainbowkit';
 
 const Header = () => {
   return (
@@ -11,7 +11,7 @@ const Header = () => {
             <a className='text-lg text-white' href="#learn">Learn</a>
             <a className='text-lg text-white'>Blog</a>
       </div>
-      <IconButton icon={<RxAvatar size={30} />} text="Sign Up" />
+      <ConnectButton />
     </nav>
   )
 }
